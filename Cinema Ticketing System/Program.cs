@@ -47,11 +47,11 @@ namespace ConsoleApp
             {
                 if (age < 20)
                 {
-                    Console.WriteLine("Youth price: SEK 80.5");
+                    Console.WriteLine("Youth price: SEK 80");
                 }
                 else if (age > 64)
                 {
-                    Console.WriteLine("Pensioner price: SEK 90.7");
+                    Console.WriteLine("Pensioner price: SEK 90");
                 }
                 else
                 {
@@ -106,11 +106,11 @@ namespace ConsoleApp
 
             if (age < 20)
             {
-                response = 80.5;
+                response = 80;
             }
             else if (age > 64)
             {
-                response = 90.7;
+                response = 90;
             }
             else
             {
